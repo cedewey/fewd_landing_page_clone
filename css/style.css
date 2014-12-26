@@ -30,9 +30,18 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 }
 ol, ul {
 	list-style: none;
+
+}
+li {
+	display: inline-block;
+
 }
 blockquote, q {
 	quotes: none;
@@ -46,3 +55,78 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.big-button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+.big-button:hover {
+background-color: #d9400e;
+border-color: #cf3d0e;
+cursor: pointer;
+}
+
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
+	margin: 15px 20px;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+}
+
+.logo {
+	margin: 15px 0 0 0;
+}
+
+.links {
+	float: right;
+	margin-top: 13px;
+}
+
+.content {
+	margin: 0 15px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+section > .introduction {
+	height: 600px;
+}
+.introduction {
+	background-image: url(../images/first-background.jpg);
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+.introduction h1, .introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
